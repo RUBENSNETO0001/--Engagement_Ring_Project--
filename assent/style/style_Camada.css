@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     background-color: rgb(255, 193, 204);
     height: 100%;
     margin: 0;
@@ -8,7 +7,7 @@ body {
     align-items: center;
 }
 
-.camada1 {
+#camada01 {
     border-radius: 12px;
     padding: 10px;
     border: 2px solid pink;
@@ -16,7 +15,6 @@ body {
     background: url(https://c.pxhere.com/photos/dd/3a/roses_flower_pink_flower_flower_color_pink_pink_flowers_flowers-568383.jpg!d);
     background-position: center;
     color: aliceblue;
-
 }
 
 .form01 {
@@ -26,7 +24,10 @@ body {
     z-index: 1;
 }
 
-.form01>label,input,button{
+.form01 > label,input,button{
     margin-bottom: 5px;
 }
 
+#camada02{
+    display: none;
+}
